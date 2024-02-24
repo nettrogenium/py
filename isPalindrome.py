@@ -9,5 +9,3 @@ def isPalindrome(str, i=0):
     
     # if string is a palindrome with even amount of chars, return itself (thus going to the first function line and returning True)
     return isPalindrome(str, i+1)
-
-print( isPalindrome( input() ) )
